@@ -1,0 +1,15 @@
+name = input("what is your name? ")
+print("hello",name)
+class1 = int(input("which class are you studying in? "))
+no_subject = int(input("how many subjects do you have? "))
+print("tell me your grades of all your subjects ")
+grades = float(input("english:- "))
+grades2 = float(input("tamil:- "))
+grades3 = float(input("maths:- "))
+grades4 = float(input("science:- "))
+grades5 = float(input("SST:- "))
+print("so your",grades,"in english", grades2 ,"in tamil",grades3 ,"in maths",grades4 , "in science", grades5,"in sst")
+total = grades + grades2 + grades3 + grades4 + grades5
+print("so your total is", total)
+averge = total / no_subject
+print("so your average grade is", averge)
